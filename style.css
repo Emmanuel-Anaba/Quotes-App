@@ -4,7 +4,7 @@ body {
   height: 100svh;
   background-size: cover !important;
   background-position: center;
-  animation: changeBackground 60s ease-in-out infinite;
+  animation: changeBackground 30s ease-in-out infinite;
 }
 
 p {
@@ -36,32 +36,17 @@ blockquote::before {
   0% {
     background: url(/images/img-1.webp);
   }
-  10% {
+  20% {
     background: url(/images/img-2.webp);
   }
-  20% {
+  40% {
     background: url(/images/img-3.webp);
   }
-  30% {
+  60% {
     background: url(/images/img-4.webp);
   }
-  40% {
-    background: url(/images/img-5.webp);
-  }
-  50% {
-    background: url(/images/img-6.webp);
-  }
-  60% {
-    background: url(/images/img-7.webp);
-  }
-  70% {
-    background: url(/images/img-8.webp);
-  }
   80% {
-    background: url(/images/img-9.webp);
-  }
-  90% {
-    background: url(/images/img-10.webp);
+    background: url(/images/img-5.webp);
   }
   100% {
     background: url(/images/img-1.webp);
